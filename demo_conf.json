@@ -1,0 +1,168 @@
+{
+    "title": "app title",
+    "width": 600,
+    "height": 500,
+    "widget_id": "100",
+    "widgets": {
+        "100": {
+            "name": "",
+            "type": "tab",
+            "id": "",
+            "value": "text 123456",
+            "place_holder": "place_holder",
+            "width": 0,
+            "height": 0,
+            "childs": ["label","button","box","check","entry","link","radio","select","tab","icon"],
+            "params": {
+                "layout":"left",
+                "auto_box":"true",
+                "tab2":"Tab box",
+                "tab3":"Tab check",
+                "tab4":"Tab entry",
+                "tab5":"Tab link",
+                "tab6":"Tab radio",
+                "tab7":"Tab select",
+                "tab8":"Tab tab"
+            }
+        },
+        "label": {
+            "name": "",
+            "type": "label",
+            "id": "",
+            "value": "text 123456",
+            "place_holder": "place_holder",
+            "width": 0,
+            "height": 0
+        },
+        "box": {
+            "type": "box",
+            "id": "",
+            "width": 0,
+            "height": 0,
+            "childs": ["label","label","entry","split"],
+            "params": {
+                "layout":"v"
+            }
+        },
+        "button": {
+            "name": "button",
+            "type": "button",
+            "id": "",
+            "value": "",
+            "place_holder": "",
+            "width": 0,
+            "height": 0,
+            "params": {
+                "icon":"contentCut"
+            }
+        },
+        "check": {
+            "name": "",
+            "type": "check",
+            "id": "",
+            "value": "check 123456",
+            "place_holder": "",
+            "width": 0,
+            "height": 0,
+            "ignore_child": false,
+            "childs": [],
+            "params": {
+                "checked":"true"
+            }
+        },
+        "entry": {
+            "name": "label",
+            "type": "entry",
+            "id": "",
+            "value": "123456",
+            "place_holder": "place_holder",
+            "width": 0,
+            "height": 0,
+            "params": {
+                "password":"false",
+                "validation":"^[0-9]*$",
+                "warning":"number",
+                "row":"4"
+            }
+        },
+        "link": {
+            "name": "baidu.com",
+            "type": "link",
+            "id": "",
+            "value": "https://www.baidu.com",
+            "place_holder": "",
+            "width": 0,
+            "height": 0,
+            "params": {}
+        },
+        "radio": {
+            "name": "",
+            "type": "radio",
+            "id": "",
+            "value": "radio1",
+            "place_holder": "",
+            "width": 0,
+            "height": 0,
+            "ignore_child": true,
+            "childs": ["radio1","radio2","radio3","radio4"],
+            "params": {}
+        },
+        "select": {
+            "name": "",
+            "type": "select",
+            "id": "",
+            "value": "select1",
+            "place_holder": "PlaceHolder",
+            "width": 0,
+            "height": 0,
+            "ignore_child": true,
+            "childs": ["select1","select2","select3","select4"],
+            "params": {}
+        },
+        "space": {
+            "name": "",
+            "type": "space",
+            "id": "",
+            "value": "",
+            "place_holder": "",
+            "width": 0,
+            "height": 0,
+            "ignore_child": false,
+            "childs": [],
+            "params": {}
+        },
+        "tab": {
+            "name": "",
+            "type": "tab",
+            "id": "",
+            "value": "text 123456",
+            "place_holder": "",
+            "width": 0,
+            "height": 0,
+            "ignore_child": false,
+            "childs": ["label","label","label","label"],
+            "params": {
+                "layout":"top",
+                "auto_box":"true",
+                "tab1":"Tab 1",
+                "tab2":"Tab 2-"
+            }
+        },
+        "split": {
+            "type": "split",
+            "id": "",
+            "childs": ["label","label"],
+            "params": {
+                "layout":"horizontal"
+            }
+        },
+        "icon": {
+            "type": "icon",
+            "id": "",
+            "name": "login",
+            "params": {
+                "index":"1"
+            }
+        }
+    }
+}
